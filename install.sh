@@ -47,6 +47,9 @@ npm config set init.author.url "https://bryanwills.dev"
 npm config set init.license "MIT"
 npm config set init.version "0.0.1"
 
+### Remove funding message from npm installs
+npm config set fund false
+
 ### Install CRA globally
 npm install create-react-app --global
 
